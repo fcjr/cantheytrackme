@@ -14,6 +14,7 @@ export default function Home() {
         "Google",
         "Facebook",
         "Ad Companies",
+        "my ISP",
         "they"
       ],
       typeSpeed: 80,
