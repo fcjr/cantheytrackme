@@ -8,7 +8,6 @@ export default function Home() {
   const typeTarget = useRef(null);
 
   useEffect(() => {
-    // Anything in here is fired on component mount.
     const options = {
       strings: [
         "Google",
@@ -24,7 +23,6 @@ export default function Home() {
     const typed = new Typed(typeTarget.current, options);
     return () => {
       typed.destroy();
-        // Anything in here is fired on component unmount.
     }
   }, [])
 
