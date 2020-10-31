@@ -37,7 +37,7 @@ export default function Home() {
         <h1 className={styles.title}>
           Can <span className={styles.titleType} style={{ whiteSpace: 'pre' }} ref={typeTarget}/>track me?
         </h1>
-        <button className={styles.button}>Analyze Your Connection</button>
+        <button className={styles.button}>Analyze My Connection Now</button>
       </main>
 
       <footer className={styles.footer}>
