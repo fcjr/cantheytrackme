@@ -84,3 +84,27 @@
 .logo {
   height: 2em;
 }
+
+/* medium */
+@media (max-width: 991.98px) {
+  .title{
+    font-size: 3em;
+  }
+
+  .button{
+    font-size: 1.5em;
+    padding: .4em 2em;
+  }
+}
+
+/* small */
+@media (max-width: 767.98px) {
+  .title{
+    font-size: 1.8em;
+  }
+
+  .button{
+    font-size: 1.2em;
+    padding: .4em .8em;
+  }
+}
