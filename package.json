@@ -10,7 +10,10 @@
   "dependencies": {
     "next": "10.0.0",
     "react": "17.0.1",
-    "react-dom": "17.0.1",
+    "react-dom": "17.0.1"
+  },
+  "devDependencies": {
+    "react-motion": "^0.5.2",
     "typed.js": "^2.0.11"
   }
 }

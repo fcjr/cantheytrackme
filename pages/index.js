@@ -2,6 +2,7 @@ import { useEffect, useRef } from 'react'
 import Typed from 'typed.js';
 
 import Head from 'next/head'
+import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -37,12 +38,14 @@ export default function Home() {
         <h1 className={styles.title}>
           Can <span className={styles.titleType} style={{ whiteSpace: 'pre' }} ref={typeTarget}/>track me?
         </h1>
-        <button className={styles.button}>Analyze My Connection Now</button>
+        <Link href="/results">
+          <div className={styles.button}>Analyze My Connection Now</div>
+        </Link>
       </main>
 
       <footer className={styles.footer}>
         <a
-          href="https://ghostery.com&utm_source=cantheytrackme.com"
+          href="https://ghostery.com?utm_source=cantheytrackme.com"
           target="_blank"
           rel="noopener noreferrer"
         >
