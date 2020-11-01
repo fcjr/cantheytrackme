@@ -75,14 +75,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: 0.25s;
-}
-
-.footer:hover,
-.footer:focus,
-.footer:active {
-  height: 95px;
-  transform: translateY(-5px);
 }
 
 .footer img {
@@ -93,6 +85,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: 0.25s;
+}
+
+.footer a:hover,
+.footer a:focus,
+.footer a:active {
+  transform: translateY(-0.1em);
 }
 
 .logo {
