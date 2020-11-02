@@ -13,7 +13,7 @@ export default function Home() {
       strings: [
         "Google",
         "Facebook",
-        "Ad Companies",
+        "advertisers",
         "my ISP",
         "they"
       ],
@@ -45,12 +45,14 @@ export default function Home() {
 
       <footer className={styles.footer}>
         <a
-          href="https://ghostery.com?utm_source=cantheytrackme.com"
+          href="https://github.com/fcjr"
+          // href="https://ghostery.com?utm_source=cantheytrackme.com"
           target="_blank"
           rel="noopener noreferrer"
         >
           Made with 💖 by {' '}
-          <img src="/ghostery.svg" alt="Ghostery Logo" className={styles.logo} />
+          fcjr
+          {/* <img src="/ghostery.svg" alt="Ghostery Logo" className={styles.logo} /> */}
         </a>
       </footer>
     </div>
